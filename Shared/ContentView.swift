@@ -9,11 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, Earth!")
-            .padding()
-        Text("Hello, Apple!！！")
-            .padding()
+//        Text("Hello, Earth!")
+//            .padding()
+//        Text("Hello, Apple!！！")
+//            .padding()
+        NavigationView {
+            VStack {
+                Rectangle().fill(Color.red)
+                Rectangle().fill(Color.blue)
+            }
+                .ignoresSafeArea()
+                .navigationBarTitle("Source Control")
+        }
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
