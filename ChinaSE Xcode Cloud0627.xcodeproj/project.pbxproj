@@ -13,6 +13,8 @@
 		C615ADE3286954970070AD8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C615ADD1286954950070AD8F /* ContentView.swift */; };
 		C615ADE4286954970070AD8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C615ADD2286954970070AD8F /* Assets.xcassets */; };
 		C615ADE5286954970070AD8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C615ADD2286954970070AD8F /* Assets.xcassets */; };
+		C615ADEF2869556F0070AD8F /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C615ADEE2869556F0070AD8F /* SecondView.swift */; };
+		C615ADF02869556F0070AD8F /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C615ADEE2869556F0070AD8F /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		C615ADD7286954970070AD8F /* ChinaSE Xcode Cloud0627.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChinaSE Xcode Cloud0627.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C615ADDD286954970070AD8F /* ChinaSE Xcode Cloud0627.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChinaSE Xcode Cloud0627.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C615ADDF286954970070AD8F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C615ADEE2869556F0070AD8F /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 				C615ADD0286954950070AD8F /* ChinaSE_Xcode_Cloud0627App.swift */,
 				C615ADD1286954950070AD8F /* ContentView.swift */,
 				C615ADD2286954970070AD8F /* Assets.xcassets */,
+				C615ADEE2869556F0070AD8F /* SecondView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -176,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C615ADEF2869556F0070AD8F /* SecondView.swift in Sources */,
 				C615ADE2286954970070AD8F /* ContentView.swift in Sources */,
 				C615ADE0286954970070AD8F /* ChinaSE_Xcode_Cloud0627App.swift in Sources */,
 			);
@@ -185,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C615ADF02869556F0070AD8F /* SecondView.swift in Sources */,
 				C615ADE3286954970070AD8F /* ContentView.swift in Sources */,
 				C615ADE1286954970070AD8F /* ChinaSE_Xcode_Cloud0627App.swift in Sources */,
 			);
