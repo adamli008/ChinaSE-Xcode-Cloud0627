@@ -17,6 +17,7 @@ struct ContentView: View {
             VStack {
                 Rectangle().fill(Color.red)
                 Rectangle().fill(Color.blue)
+                Rectangle().fill(Color.yellow)
             }
                 .ignoresSafeArea()
                 .navigationBarTitle("Source Control")
