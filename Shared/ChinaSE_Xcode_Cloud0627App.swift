@@ -12,6 +12,7 @@ struct ChinaSE_Xcode_Cloud0627App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+        
         }
     }
 }
